@@ -1,6 +1,7 @@
 html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin:0;padding:0}
 
-.wrapper{width:1080px;height:500px;margin:0 auto;background:url("../images/background.jpg") top center;position: relative;}
+body{background-color:#6096c4;}
+.wrapper{width:980px;height:500px;margin:0 auto;background:url("../images/background.jpg") top center;position: relative;}
 ul{list-style: none;}
 
 /*right-bottom corner moving cube*/
@@ -86,7 +87,7 @@ ul{list-style: none;}
 
 
 /*left pocoyo and windmill part*/
-.pocoyo_container{width:250px;top: 80px;left:75px;position: absolute;}
+.pocoyo_container{width:250px;top: 80px;left:50px;position: absolute;}
 .pocoyo{width:250px;position: relative;}
 .windmill img{
 	width:100px;height:100px;position: absolute;left:107px;top:-35px;
@@ -121,7 +122,7 @@ ul{list-style: none;}
 
 
 /*middle lottery part*/
-.lottery_container{width:400px;position: absolute;left:350px;top:30px;}
+.lottery_container{width:400px;position: absolute;left:325px;top:30px;}
 .lottery{width:400px;position: relative;}
 .lottery #turn{
 	width:250px;height:250px;position: absolute;left:26px;top:8px;
